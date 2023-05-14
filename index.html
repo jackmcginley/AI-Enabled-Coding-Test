@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Interview Bot</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="initiation.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+
+  <img src="images\icons8-brain-64.png" alt="brain" class = "title">
+  <h1 class = "w3-xxxlarge  title">AISchools</h1>
+
+  <section id="initiation" class="initiation_section">
+    <div id="heading">
+      <p >Test your tech skills with AI </p>
+    </div>
+    <div id="dropdown" class="dropdown">
+      <button id="roleSelector" class="dropbtn">Select a role and skill to test  <img src="images\icons8-computer-chat-50.png" alt="chat"></button>
+      <!-- The list of dropdown items is contained in the following div, but they appear under control of the CSS on hover over the button, by changing the display property of class dropdown-content from 'none' to 'block'-->
+      <div id="dropdown-content" class="dropdown-content">
+      </div>
+    </div>
+    <div id="show-results"  class = " w3-tooltip hidden">
+      <!-- <button id="result-button" class="dropbtn"> Show results</button> -->
+      <span style="position:absolute;left:50px;top:-18px" class = "w3-text w3-tag"> Display results</span>
+      <img id="result-button" src="images\icons8-pass-fail-96.png" alt="result">
+
+    </div>
+
+  </section>
+
+
+  <section id="chat" class="hidden">
+    <div id="chat-box">
+      <!-- Add the chat messages here -->
+    </div>
+    <div id="message-input-container" class=" message-input-container hidden">
+      <input type="text" id="message-input" placeholder="Type your answer here..." autofocus="autofocus"
+        autocomplete="off" />
+      <!-- <button id="send-button">Send</button> -->
+      <img src="images\icons8-sent-48.png" alt="icon" id="send-button" >
+      <!-- <button id="endtest-button">End Test</button> -->
+      <div  class = "w3-tooltip">
+        <span style="position:absolute;left:100px;top:-18px" class = "w3-text w3-tag"> End test</span>
+        <img id="endtest-button" src="images\icons8-stop-squared-48.png" alt="stop">
+      </div>
+
+    </div>
+      
+  </section>
+  <section id="result-section">
+
+  </section>
+
+</body>
+
+<script type="module" src="script2.js"> </script>
+
+</html>

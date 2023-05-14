@@ -1,0 +1,171 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background: linear-gradient(#f5fff9, #cffde1); */
+  background: linear-gradient(#f9f8f5, #f0ede5);
+
+}
+
+#chat-box {
+  padding: 10px;
+  margin-bottom: 20px;
+  width:70%;
+}
+
+
+
+.chat-message {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.user-bubble {
+  max-width: 70%;
+  min-width: 30%;
+  background-color: #f5fff9;
+  background-color: #a2fbc4;
+  border-radius: 20px 20px 0 20px;
+  padding: 10px;
+  
+  align-self: flex-end;
+}
+
+.chatgpt-bubble {
+  max-width: 70%;
+  background-color: #a2fbc4;
+  background-color: #f5fff9;
+  border-radius: 20px 20px 20px 0;
+  padding: 10px;
+  align-self: flex-start;
+}
+
+.user {
+  /* font-weight: bold; */
+  color: #3D5656;
+}
+
+.chatgpt {
+  /* font-weight: bold; */
+  /* color: green; */
+  color:#3D5656;
+}
+
+.message-input-container{
+  display:flex;
+  align-items: center;
+  justify-content: left;
+}
+#message-input {
+  border: none;
+  border-radius: 15px;
+  background-color: #f5fff9;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  max-width: 500px;
+  margin: 20px;
+  /* margin: 0 auto; */
+}
+
+#message-input:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#send-button {
+  /* background-color: #4caf50; */
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin:10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#result-button {
+  /* background-color: #3729b3; */
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 0 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#endtest-button{
+  /* background-color: #d22a38; */
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 0 0 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+  background-color: #d4dcd4;
+}
+.score-section{
+  margin:20px;
+}
+.score-result{
+  margin: 10px;
+  padding:10px;
+  width: 70%;
+  border: 1px;
+  border-style: solid;
+  background-color: beige;
+}
+
+
+.node{
+  border:1px;
+  border-style: solid;
+  border-radius: 8px;
+  
+}
+.test-div{
+  font-size: larger;
+}
+
+/* Container for skill bars */
+.result-container {
+  width: 90%; /* Almost full width */
+  background-color: #ddd; /* Grey background */
+  margin: 20px;
+}
+
+.skill-bar {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.good-result{
+  background-color: #04AA6D;
+}
+.medium-result{
+  background-color: #2196F3;
+}
+.poor-result{
+  background-color: #f44336;
+}
+
+.hidden{
+  display: none;
+}
+.para{
+  margin:20px;
+}
+
+
+
+
+

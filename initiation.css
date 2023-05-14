@@ -1,0 +1,143 @@
+.initiation_section{
+    background-color:#3D5656;
+    /* background-color: #3729b3; */
+    margin: 20px;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+    border-radius: 10px;
+}
+#heading{
+  background-color: #CFFDE1;
+  
+  color: #3D5656;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  margin: 5px
+}
+.title{
+  display: inline-block;
+  /* font-family: "Oswald"; */
+  margin:2%;
+}
+
+.dropbtn {
+  /* background-color: darkgreen; */
+    background-color:#FED049;
+    
+    /* color: #04AA6D; */
+    color:#3D5656;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px
+  }
+
+  #chatStart{
+    padding: 0 0 0 10px;
+  }
+  
+  .resetbtn {
+    background-color: #3D5656;
+    color: white;
+    margin: 0 20px 0 20px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .cancelbtn {
+    background-color: #d22a38;
+    color: white;
+    margin: 0 20px 0 20px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .dropdown {
+   position: relative;
+   display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 210px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  /* The dropdown list is shown on hover, and not by a click event on the button.  When the dropdown div has hover, the display type of dropdown-content is changed from default none to block */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn .resetbtn{
+    background-color: #3e8e41;
+  }
+  .skillsection{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .skillsectionrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .flexquestions{
+    margin:10px;
+  }
+  .slider {
+   
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+
+  .questionbox{
+    resize: none;
+    
+  }
+  .summary-section{
+    display: inline-block;
+    margin: 10px;
+    
+    width:30%;
+  }
+  .summary-section-row{
+    display:flex;
+    align-items: end;
+  }
+ 

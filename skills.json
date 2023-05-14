@@ -1,0 +1,66 @@
+{
+    "purpose": "prompt questions",
+    "date": "17 April 2023",
+    "prompts": [
+      {
+        "role": "Front end developer",
+        "skills": [
+          "HTML5",
+          "CSS3",
+          "Javascript",
+          "REACT",
+          "Angular"
+          
+        ],
+        "levels": [
+            "Beginner",
+            "Intermediate",
+            "Advanced"
+          ],
+        "summaryprompt": "Hey GPT, I would like you to test my knowledge of {skill}. In the conversation please set me a multiple choice question, with 4 possible answers and get my response.  The questions should be appropriate for someone whose competence level in the subject is {level}.  When you receive my answer to each question, please say if the answer is correct and then immediately provide the next question. If my answer is not right, please make sure to include the word 'incorrect' in your response.  ",
+        "finalprompt": "This is the final answer to your questions to test my knowledge of {skill}. Please respond to say if my answer is correct. If my answer is not right, please make sure to include the word 'incorrect' in your response. Do not ask any further questions in your response. Instead please conclude with a nice message to say thanks to me for taking the test."
+        
+      },
+      {
+        "role": "Back end developer",
+        "skills": [
+          "SQL",
+          "Python",
+          "Javascript",
+          "NodeJS",
+          "MongoDB",
+          "Java"
+        ],
+        "levels": [
+          "Beginner",
+          "Intermediate",
+          "Advanced"
+        ],
+        "summaryprompt": "Hey GPT, I would like you to test my knowledge of {skill}. In the conversation please set me a multiple choice question, with 4 possible answers and get my response.  The questions should be appropriate for someone whose competence level in the subject is {level}.  When you receive my answer to each question, please say if the answer is correct and then immediately provide the next question. If my answer is not right, please make sure to include the word 'incorrect' in your response.  ",
+        "finalprompt": "This is the final answer to your questions to test my knowledge of {skill}. Please respond to say if my answer is correct. If my answer is not right, please make sure to include the word 'incorrect' in your response. Do not ask any further questions in your response. Instead please conclude with a nice message to say thanks to me for taking the test."
+        
+      },
+      {
+        "role": "Full stack developer",
+        "skills": [
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "SQL",
+            "Python",
+            "Javascript",
+            "NodeJS",
+            "MongoDB",
+            "Java"
+        ],
+        "levels": [
+          "Beginner",
+          "Intermediate",
+          "Advanced"
+        ],
+        "summaryprompt": "Hey GPT, I would like you to test my knowledge of {skill}. In the conversation please set me a multiple choice question, with 4 possible answers and get my response.  The questions should be appropriate for someone whose competence level in the subject is {level}.  When you receive my answer to each question, please say if the answer is correct and then immediately provide the next question. If my answer is not right, please make sure to include the word 'incorrect' in your response.  ",
+        "finalprompt": "This is the final answer to your questions to test my knowledge of {skill}. Please respond to say if my answer is correct. If my answer is not right, please make sure to include the word 'incorrect' in your response. Do not ask any further questions in your response. Instead please conclude with a nice message to say thanks to me for taking the test."
+      }
+    ]
+  }
+  
